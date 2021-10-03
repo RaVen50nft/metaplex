@@ -67,7 +67,7 @@ export const SetupView = () => {
           <Button type="primary" className="app-btn" onClick={connect}>
             Connect
           </Button>{' '}
-          to configure store.
+          to purchase NFTs.
         </p>
       )}
       {wallet.connected && !store && (
